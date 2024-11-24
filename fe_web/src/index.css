@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { 
+  font-family: "satoshi_regular"; 
+  src: url("../public/assets/font/Satoshi-Regular.otf"); 
+}
+
+@font-face { 
+  font-family: "satoshi_medium"; 
+  src: url("../public/assets/font/Satoshi-Medium.otf"); 
+}
+
+@font-face { 
+  font-family: "satoshi_bold"; 
+  src: url("../public/assets/font/Satoshi-Bold.otf"); 
+}
+
+@font-face { 
+  font-family: "satoshi_black"; 
+  src: url("../public/assets/font/Satoshi-Black.otf"); 
+}
+
+@font-face { 
+  font-family: "poppins_regular"; 
+  src: url("../public/assets/font/Poppins-Regular.ttf"); 
+}
+
+@font-face { 
+  font-family: "poppins_bold"; 
+  src: url("../public/assets/font/Poppins-Bold.ttf"); 
+}
+
+@font-face { 
+  font-family: "poppins_black"; 
+  src: url("../public/assets/font/Poppins-Black.ttf"); 
+}
+
+@font-face { 
+  font-family: "poppins_medium"; 
+  src: url("../public/assets/font/Poppins-Medium.ttf"); 
+}
+
+@font-face { 
+  font-family: "league_bold"; 
+  src: url("../public/assets/font/LeagueSpartan-Bold.ttf"); 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Ganti warna latar belakang scrollbar */
+.swiper-scrollbar {
+  background: #e0e0e0; /* Ganti dengan warna yang diinginkan */
+  opacity: 1; /* Pastikan scrollbar terlihat */
+}
+
+/* Ganti warna drag scrollbar */
+.swiper-scrollbar-drag {
+  background: #3b82f6; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Opsional: Tambahkan transisi untuk efek halus */
+.swiper-scrollbar,
+.swiper-scrollbar-drag {
+  transition: background 0.3s ease;
+}
+
+/* Menghilangkan scrollbar dari container */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Jika diperlukan, tambahkan padding-right untuk menghindari cut-off pada konten */
+.no-scrollbar-content {
+  padding-right: 16px; /* Sesuaikan sesuai dengan margin kontainer */
+}
+
+/* Custom Selection Style */
+::-moz-selection {
+  background-color: rgba(168, 162, 158, 0.3);
+  color: #A8A29E;
+}
+
+/* Untuk input dan textarea */
+input::selection,
+textarea::selection {
+  background-color: rgba(168, 162, 158, 0.4);
+  color: #A8A29E;
+}
+
+input::-moz-selection,
+textarea::-moz-selection {
+  background-color: rgba(168, 162, 158, 0.4);
+  color: #A8A29E;
+}
+
+/* Untuk area dengan background gelap */
+.dark-area ::selection {
+  background-color: rgba(168, 162, 158, 0.6);
+  color: #ffffff;
+}
+
+.dark-area ::-moz-selection {
+  background-color: rgba(168, 162, 158, 0.6);
+  color: #ffffff;
+}
+
+::selection {
+  background: #2A3132;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #CDCDC0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A3132;
+  border-radius: 5px;
+}
+
+/* Smooth Scroll untuk seluruh aplikasi */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Untuk browser yang mendukung scroll-behavior */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Untuk browser yang mendukung scrollbar-gutter */
+html {
+  scrollbar-gutter: stable;
+}

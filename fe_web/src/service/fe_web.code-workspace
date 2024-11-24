@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../backend/gallery"
+		},
+		{
+			"path": "../../../../../portfolio-react"
+		}
+	],
+	"settings": {}
+}

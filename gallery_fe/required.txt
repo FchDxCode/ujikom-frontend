@@ -1,0 +1,25 @@
+flutter pub add http
+flutter pub add flutter_svg_provider
+flutter pub add google_fonts #add
+flutter pub add path_provider #add nanti
+flutter pub add bloc
+flutter pub add equatable
+flutter pub add intl
+flutter pub add shimmer #add nanti
+flutter pub add url_launcher #add nanti
+flutter pub add flutter_launcher_icons #add nanti
+flutter pub add carousel_slider #add nanti
+flutter pub add flutter_local_notifications #add nanti
+dart pub add dev:json_serializable
+flutter pub add beamer #add nanti
+flutter pub add animations #add nanti
+flutter pub add cupertino_icons #add nanti
+flutter pub add dio
+flutter pub add flutter_bloc
+flutter pub add shared_preferences
+flutter pub add meta #add
+flutter pub add convert
+flutter pub add json_annotation
+flutter pub add flutter_secure_storage
+flutter pub add image_picker
+flutter pub add cached_network_image
